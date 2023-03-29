@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box{
+	background-color: #2b3035;
+	width: 100%;
+	height: fit-content;
+	border-right: 1px solid #6865658c;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex{
+	display: flex;
+	background-color: black;
+	padding: 4em;
+	flex-grow: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+textarea{
+	height: 45vh;
+	width: 98.3%;
+	background-color: white;
+	font-size: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.header{
+	color: white;
+	font-family: auto;
+	text-align: center;
+	margin-top: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CodeMirror{
+		height: 340px !important;
+		color: white;
+}
+.CodeMirror-gutters{
+	background-color: red;
+}
+.CodeMirror-scroll{
+	background-color: #2b3035;
+}
+.icon{
+	border-radius: 5px;
+	padding: 7px;
+	padding-left: 14px;
+	margin-right: 8px;
+	padding-right: 14px;
+	background-color: red;
+}
+.blue{
+	background-color: #0083e4;
+}
+.yellow{
+	background-color: yellow;
+    color: black;
+}
+.flex1{
+	display: flex;
+	background-color: black;
+    justify-content: space-between;
+    align-items: center;
+		padding: 16px;
+}
+img{
+	width: 1em;
+	height: 1em;
+	cursor: pointer;
 }
